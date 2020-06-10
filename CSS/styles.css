@@ -1,0 +1,244 @@
+* {
+  max-width: 100%;
+}
+
+
+h1 {
+  color: #7a0a3e;
+}
+
+.col p {
+  text-align: justify;
+}
+
+.introduction p {
+  font-size: 18px;
+}
+
+
+.main-header li {
+  list-style-type: none;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  color: green;
+}
+
+.container {
+  text-align: center;
+  margin: 0 5%;
+  overflow: hidden;
+}
+
+#skills {
+  clear: both;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#skills li{
+    list-style-type: none;
+    color: #7615bf
+}
+
+#skills p{
+  text-align: center;
+
+}
+
+.contact {
+  margin-top: 100px;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact li {
+    list-style-type: none;
+    color: #7615bf
+}
+
+.footer {
+  max-width: 95%;
+  margin: auto;
+  border-top: 1px solid lightgrey;
+}
+
+.footer h2 {
+  float: left;
+}
+
+#top {
+  float: right;
+  text-align: right;
+}
+
+#footer-nav {
+  display: none;
+}
+
+
+
+
+/* Check the below are right for media queries*/
+@media(min-width: 768px) {
+
+
+  .container {
+    text-align: center;
+  }
+
+
+
+  .main-nav {
+    display: inline-block;
+  }
+
+  .main-nav li {
+    float: left;
+  }
+
+  .profile-image {
+    float: right;
+    margin-left: 2%;
+  }
+
+  .intro p {
+    display: inline-block;
+  }
+
+  .introduction {
+    max-width: 95%;
+    margin: auto;
+    margin-bottom: 3em;
+  }
+
+
+.marketing {
+  float: left;
+  width: 45%;
+}
+
+.search {
+  float: right;
+  width: 45%;
+}
+
+.travel {
+  float: left;
+  width: 45%;
+}
+
+.spots {
+  float: right;
+  width: 45%;
+}
+
+.travel {
+  float: left;
+  width: 45%;
+  clear: left;
+}
+
+.photo {
+  float: right;
+  width: 45%;
+  clear: right;
+}
+
+.calculator {
+  float: left;
+  width: 45%;
+}
+
+.contact {
+  clear: both;
+}
+
+#top {
+  display: none;
+}
+
+#footer-nav {
+  visibility: visible;
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+
+#footer-nav li {
+  float: left;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+  .clearfix {
+    overflow: auto;
+  }
+
+}
+
+@media(min-width: 1024px) {
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+.name {
+  float: left;
+  margin-left: 5%;
+}
+
+.main-nav {
+    float: right;
+}
+
+  .marketing {
+    float: left;
+    width: 30%;
+    margin-right: 5%
+  }
+
+  .search {
+    float: left;
+    width: 30%;
+  }
+
+  .travel {
+    float: right;
+    width: 30%;
+    clear: none;
+  }
+
+  .spots {
+    float: left;
+    width: 30%;
+    margin-right: 5%
+  }
+
+  .photo {
+    float: left;
+    width: 30%;
+  }
+
+  .calculator {
+    float: right;
+    width: 30%;
+    clear: none;
+  }
+
+
+}
